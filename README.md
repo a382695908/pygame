@@ -28,7 +28,7 @@ pygame.display.set_mode(resolution(0, 0), flags=0, depth=0) 创建游戏窗口
 >depth 参数表示颜色的位数，默认自动匹配
 **注：必须使用变量记录set_mode方法的返回窗口对象，因为：后续所有的图像绘制都基于这个返回结果**
 
-##wall ball version 1
+## wall ball version 1
 
 功能：小球在游戏窗口中自由移动，撞到窗口边缘，反弹回来
 小球下载地址：[https://github.com/ACyong/pygame/blob/master/wall_ball/PYG02-ball.gif](https://github.com/ACyong/pygame/blob/master/wall_ball/PYG02-ball.gif)
